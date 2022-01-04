@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoneyManager</title>
+    <script src="jquery-3.1.0.min.js"></script>
+    <script src="popup.js"></script>
+    <link rel="stylesheet" href="css/popupstyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>MoneyManager</h1>
+    <p>Track all your spendings. First set your budget and then select
+        any number on your screen or type it in the text box to spend.
+    </p>
+    <h2>Total Spent: <span id="total">0</span></h2>
+    <h2>Budget: <span id="limit"></span></h2>
+    <h2>Money left: <span id="remain"></span></h2>
+    <div class="footer">
+        <input type="text" id="amount" placeholder="Enter Amount">
+        <input type="submit" id="spendAmount" value="Spend">
+    </div>
+</body>
+
+</html>
